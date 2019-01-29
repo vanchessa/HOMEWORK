@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Homework</title>
+	<style type="text/css">
+		.main{
+			border: 5px groove #d3d3d3;
+			margin: 10px auto;
+			height: 618px;
+			width: 70%;
+			font-family: Verdana;
+			text-align: center;
+		}
+			.top{
+				font-size: 25px;
+				color: white;
+				float: center;
+				width: 100%;
+				background: #3d4f5b;
+				padding: 15px;
+	    		padding-right: 0px;
+	    		padding-left: 0px;	
+			}
+			.left_block{
+				float: left;
+				font-size: 15px;
+				color: white;
+				width: 15%;
+				min-width: 250px;
+				background: linear-gradient(to right, #424242, #6e6e6e);
+			}
+				.Image{
+					margin: 10px;
+					border-radius: 70px;
+				}
+				.name{
+					text-align: left;
+					font-size: 28px;
+					margin-left: 15px;
+					border-bottom: 2px solid #ffff00;
+					margin-right: 10px;
+					margin-left: 10px;
+				}
+				.like, .contacts{
+					margin: 20px;
+					font-size: 18px;
+				}
+				.favorites{
+					font-size: 12px;
+					border: 3px;
+				}
+					.favorite_1{
+						background-color: #ffa500;
+						border-radius: 5px;
+						margin: 8px;
+						margin-right: 35%;
+					}
+					.favorite_2{
+						background-color: #0174df; 
+						border-radius: 5px;
+						margin: 8px;
+						margin-right: 50%;
+					}
+					.favorite_3{
+						background-color: #008000;
+						border-radius: 5px;
+						margin: 8px;
+						margin-right: 10%;
+					}
+				.list{
+					font-size: 15px;
+					margin-top: 10%;
+					padding-left: 30%;
+					padding-right: 40%;
+				}
+			.right_block{
+				float: left;
+				width: auto;
+				text-align: center;
+				font-size: 15px;
+				min-width: 400px; 
+			}
+				.Date, .skills, .About{
+					text-align: left;
+					font-size: 18px;
+					color: #084b8a;
+					border-bottom: 2px solid #0080ff;
+					margin-right: 5px;
+					margin-left: 15px;
+					line-height: 1.5;	
+				}
+				.Date{
+					padding-bottom: 10px;
+					margin-top: 15px;
+				}
+				.skills, .About{
+					margin-top: 10px;
+				}
+				ol.RBList  {
+					margin-top: 0px;
+					margin-bottom: 10px;
+					padding-left: 0px;
+					list-style-type: none; 
+					counter-reset:  item; 
+				}
+				ol.RBList li:before {
+				  	content:  '-'; 
+				  	counter-increment: item; 
+				}
+	</style>
+</head>
+<body>
+	<div class="main">
+		<div class="top">
+			Curriculum vitae
+		</div>
+		<div class="left_block">
+			<p><img class="Image" src="img/photo_2018-07-22_01-24-11.jpg" height="175px" border="3px solid #fff"></p>
+			<div class="name">
+				Ivan Zhadan
+			</div>
+			<div class="like">
+				<u><b>Люблю:</b></u>
+			</div>
+			<div class="favorites">
+				<p class ="favorite_1">
+					Музыку
+				</p>
+				<p class="favorite_2">
+					Велик
+				</p>
+				<p class="favorite_3">
+					Гульбасить
+				</p>
+			</div>
+			<div class="contacts">
+				<u><b>Контакты</b></u>
+				<ul class="list">
+					<li><p class="Insta">
+						<a href="https://www.instagram.com/vanche_">
+							Instagram
+						</a>
+					</p></li>
+					<li><p class="Face">
+						<a href="https://www.facebook.com/vanchessac">
+							Facebook
+						</a>
+					</p></li>
+					<li><p class="telegram">
+						<a href="tg://resolve?domain=<Vanchessa>">
+							Telegram
+						</a>
+					</p></li>
+				</ul>
+			</div>
+		</div>
+		<div class="right_block">
+			<div class="Date">
+				<b>Дата рождения:</b>
+				<div>
+					25 ноября 1998г
+				</div>
+				<b>Место рождения:</b>
+				<div>
+					Планета Земля
+				</div>
+			</div>		
+			<div class="skills">
+				<b>Soft skills:</b>
+				<div>
+					<ol class="RBList">
+						<li>
+							Сапер
+						</li>
+						<li>
+							Paint
+						</li>
+					</ol>
+				</div>
+			</div>
+			<div class="About">
+				<b>Обо мне:</b>
+				<div>
+					<ol class="RBList">
+						<li>
+							Пью
+						</li>
+						<li>
+							Курю
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
